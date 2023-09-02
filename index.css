@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 #profile-picture {
     height: 250px;
     width: 250px;
@@ -8,6 +12,29 @@
 }
 
 body {
-    background-color: #F6F6F2;
-    font-family: 'Indie Flower', cursive;
+    background-color: #e9ece6;
+    font-family: 'Roboto', sans-serif;
+}
+
+#image1, #image2 {
+    height: 250px;
+    width: auto;
+}
+
+#icon-email, #icon-mobile-number {
+    height: 35px;
+    width: auto;
+}
+
+.images-logo {
+    height: 90px;
+    width: auto;
+}
+
+#contact {
+    background-color: #545b5a;
+}
+
+#navbar {
+    background-color: #aab8b6;
 }

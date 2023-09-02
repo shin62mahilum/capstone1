@@ -13,91 +13,167 @@
 
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto&family=Shadows+Into+Light&display=swap" rel="stylesheet">
 </head>
 
-<body class="">
-    <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark" id="nav-bar">
-        <a class="navbar-brand" href="#">Shin Mahilum</a>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">About Me <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Tools</a>
-            </li>
-           </ul>
+<body>
+    <!-- Nav bar -->
+    <div id="navbar" class="navbar py-3">
+        <div class="mr-auto">Shin Mahilum</div>
+        <div id="navlinks" class="d-flex ">
+            <div class="mr-3"><a href="#landing">About Me</a></div>
+            <div class="mr-3"><a href="#projects">Projects</a></div>
+            <div><a href="#tools">Tools</a></div>
         </div>
-      </nav>
+    </div>
     
     <!-- Landing -->
     <section id="landing">
-        <div class="">
-            <h2>Hi! I am</h2>
-            <h1>Shin Mahilum</h1>
-        </div>
 
-        <div>
-            <img src="./images/shinCropped.png" alt="Profile Picture" id="profile-picture">
+        <div class="container">
+
+            <div class="text-center mt-5">
+                <img src="./images/shinCropped.png" alt="Profile Picture" id="profile-picture" class="img-fluid mx-auto">
+            </div>
+
+            <div class="text-center">
+                <div>
+                    <div class="mt-5 mb-3">
+                        <h2>Hi, I am</h2>
+                        <h1>Shin Mahilum</h1>
+                        <p> 
+                            I'm a Full Stack Web Developer with a passion for crafting seamless, innovative online experiences. My expertise spans from creating captivating front-end designs to architecting robust back-end solutions. I stay ahead of the curve with the latest technologies to ensure your web projects not only look stunning but also perform flawlessly. Let's collaborate and turn your digital vision into reality!
+                        </p>
+                    </div>
+                
+                </div>
+                
+            </div>
+            
         </div>
         
-        <div>
-            <p> 
-                I'm a seasoned Full Stack Web Developer with a passion for crafting seamless, innovative online experiences. My expertise spans from creating captivating front-end designs to architecting robust back-end solutions. I stay ahead of the curve with the latest technologies to ensure your web projects not only look stunning but also perform flawlessly. Let's collaborate and turn your digital vision into reality!
-            </p>
-        </div>
+        
+        
+        
     </section>
     
     <!-- Project -->
-    <section id="projects">
-        <h2>My Projects</h2>
-        <div class="project">
-            <div>
-                <img src="./images/e-commerce.jpg" alt="Ecommerce Image">
+    <section id="projects" class="">
+        <h2 class="text-center font-weight-bold m-4 my-4 mt-5">Projects</h2>
+        
+        <div class="container text-center">
+            <div class="row text-center">
+                <!-- project 1 -->
+                <div class="col-md-6">
+                    <div class=" p-4" id="project-1">
+                        <div>
+                            <img src="./images/profile-page.png" alt="Ecommerce Image" class="img-fluid" id="image1">
+                            <div class="my-4">
+                                <h3>Profile Website</h3>
+                                <p>A personal website that presents information about an individual, including their skills, portfolio, and contact details, often used for professional or personal branding.</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+
+                 <!-- project 2 -->
+                <div class="col-md-6">
+                    <div class="  p-4" id="project-2">
+                        <img src="./images/artwork.png" alt="Showcase Image" id="image2" class="img-fluid">
+                        <div class="my-4">
+                            <h3>Artwork or Showcase Website</h3>
+                            <p>A platform designed to display and highlight an artist's or creative professional's portfolio of work, providing a visual gallery of their art, designs, or projects.</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                
             </div>
-            <div>
-                <h3>Ecommerce Website</h3>
-                <p>This is a brief description of Project 1.</p>
-            </div>
-            
         </div>
-        <div class="project">
-            <div>
-                <img src="./images/showcase.jpg" alt="Showcase Image">
-            </div>
-            <div>
-                <h3>Artwork or Showcase Website</h3>
-                <p>This is a brief description of Project 2.</p>
-            </div>
-            
-        </div>
-        <!-- Add more project entries as needed -->
+        
+        
+                
+            <!-- Add more project entries as needed -->
     </section>
 
     <!-- Tools -->
-    <section id="tools"> 
-        <h2>My Tools</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <!-- Add more tools you're proficient with -->
-        </ul>
+    <section id="tools" class="mb-5"> 
+        <h2 class="text-center m-5">My Tools</h2>
+        <!-- <h3 class="text-center">Front End</h3> -->
+
+        <div class="container text-center mb-5">
+            <div id="front-end-tools" class="row justify-content-center">
+                <div id="html" class="col">
+                <img src="./images/Frontend/logo-html5.png" alt="HTML5" class="images-logo">
+                </div>
+                <div id="css" class="col">
+                <img src="./images/Frontend/logo-css3.png" alt="CSS3" class="images-logo">
+                </div>
+                <div id="javascript" class="col">
+                <img src="./images/Frontend/logo-javascript.png" alt="JavaScript" class="images-logo">
+                </div>
+                <div id="javascript" class="col">
+                <img src="./images/Frontend/logo-bootstrap.png" alt="JavaScript" class="images-logo">
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- <h3 class="text-center">Back End</h3> -->
+
+        <div class="container text-center">
+            <div id="back-end-tools" class="row justify-content-center py-2">
+                <div id="git" class="col">
+                <img src="./images/Backend/logo-git.png" alt="GIT" class="images-logo">
+                </div>
+                <div id="gitlab" class="col">
+                <img src="./images/Backend/logo-gitlab-ci-cd.png" alt="gitlabCSS3" class="images-logo">
+                </div>
+                <div id="mongodb" class="col">
+                <img src="./images/Backend/logo-mongodb.png" alt="MongoDBJavaScript" class="images-logo">
+                </div>
+                <div id="nodejs" class="col">
+                <img src="./images/Backend/logo-nodejs.png" alt="nodejs" class="images-logo">
+                </div>
+                <div id="react" class="col">
+                    <img src="./images/Backend/logo-react.png" alt="react" class="images-logo">
+                </div>
+                <div id="rest" class="col">
+                    <img src="./images/Backend/logo-rest.png" alt="rest" class="images-logo">
+                </div>
+                
+            </div>
+        </div>
+          
     </section>
 
     <!-- Contact -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>If you'd like to collaborate or have any questions, feel free to reach out:</p>
-        <p>Email: your@email.com</p>
-        <p>Phone: (123) 456-7890</p>
+    <section id="contact" class="mt-5 py-3' px-4">
+        <h2 class="text-center pt-3">Contact Me</h2>
+        <p class="text-center">If you'd like to collaborate or have any questions, feel free to reach out:</p>
+ 
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 mr-2 ml-2 ">
+                    <div class="d-flex justify-content-center">
+                        <img src="./images/email.png" alt="email" id="icon-email" class="align-items-center">
+                        <p class="mt-2 align-items-center">shin62mahilum@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col-md-6 mr-2 ml-2">
+                    <div class="d-flex justify-content-center">
+                        <img src="./images/mobile-number.png" alt="email" id="icon-mobile-number" class="align-items-center">
+                        <p class="mt-2 align-items-center">(+63)985 947 5316</p>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        
     </section>
+
+    
 </body>
 </html>
