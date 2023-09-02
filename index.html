@@ -19,12 +19,12 @@
 
 <body>
     <!-- Nav bar -->
-    <div id="navbar" class="navbar py-3">
+    <div id="navbar" class="navbar py-3 sticky-top">
         <div class="mr-auto">Shin Mahilum</div>
         <div id="navlinks" class="d-flex ">
-            <div class="mr-3"><a href="#landing">About Me</a></div>
-            <div class="mr-3"><a href="#projects">Projects</a></div>
-            <div><a href="#tools">Tools</a></div>
+            <div class="mr-3"><a href="#landing" class="text-dark">About Me</a></div>
+            <div class="mr-3"><a href="#projects" class="text-dark">Projects</a></div>
+            <div><a href="#tools" class="text-dark">Tools</a></div>
         </div>
     </div>
     
@@ -66,7 +66,7 @@
             <div class="row text-center">
                 <!-- project 1 -->
                 <div class="col-md-6">
-                    <div class=" p-4" id="project-1">
+                    <div class="p-4 m-2" id="project-1">
                         <div>
                             <img src="./images/profile-page.png" alt="Ecommerce Image" class="img-fluid" id="image1">
                             <div class="my-4">
@@ -81,10 +81,10 @@
 
                  <!-- project 2 -->
                 <div class="col-md-6">
-                    <div class="  p-4" id="project-2">
+                    <div class="p-4 m-2" id="project-2">
                         <img src="./images/artwork.png" alt="Showcase Image" id="image2" class="img-fluid">
                         <div class="my-4">
-                            <h3>Artwork or Showcase Website</h3>
+                            <h3>Showcase Website</h3>
                             <p>A platform designed to display and highlight an artist's or creative professional's portfolio of work, providing a visual gallery of their art, designs, or projects.</p>
                         </div>
                         
@@ -101,47 +101,48 @@
 
     <!-- Tools -->
     <section id="tools" class="mb-5"> 
-        <h2 class="text-center m-5">My Tools</h2>
+        <h2 class="text-center m-5 font-weight-bold">My Tools</h2>
         <!-- <h3 class="text-center">Front End</h3> -->
 
         <div class="container text-center mb-5">
             <div id="front-end-tools" class="row justify-content-center">
-                <div id="html" class="col">
+                <div id="html" class="col-md-3 my-2">
                 <img src="./images/Frontend/logo-html5.png" alt="HTML5" class="images-logo">
                 </div>
-                <div id="css" class="col">
+                <div id="css" class="col-md-3 my-2">
                 <img src="./images/Frontend/logo-css3.png" alt="CSS3" class="images-logo">
                 </div>
-                <div id="javascript" class="col">
+                <div id="javascript" class="col-md-3 my-2">
                 <img src="./images/Frontend/logo-javascript.png" alt="JavaScript" class="images-logo">
                 </div>
-                <div id="javascript" class="col">
+                <div id="javascript" class="col-md-3 my-2">
                 <img src="./images/Frontend/logo-bootstrap.png" alt="JavaScript" class="images-logo">
                 </div>
                 
             </div>
         </div>
 
+        
         <!-- <h3 class="text-center">Back End</h3> -->
 
         <div class="container text-center">
             <div id="back-end-tools" class="row justify-content-center py-2">
-                <div id="git" class="col">
+                <div id="git" class="col-md-3 my-2">
                 <img src="./images/Backend/logo-git.png" alt="GIT" class="images-logo">
                 </div>
-                <div id="gitlab" class="col">
+                <div id="gitlab" class="col-md-3 my-2">
                 <img src="./images/Backend/logo-gitlab-ci-cd.png" alt="gitlabCSS3" class="images-logo">
                 </div>
-                <div id="mongodb" class="col">
+                <div id="mongodb" class="col-md-3 my-2">
                 <img src="./images/Backend/logo-mongodb.png" alt="MongoDBJavaScript" class="images-logo">
                 </div>
-                <div id="nodejs" class="col">
+                <div id="nodejs" class="col-md-3 my-2">
                 <img src="./images/Backend/logo-nodejs.png" alt="nodejs" class="images-logo">
                 </div>
-                <div id="react" class="col">
+                <div id="react" class="col-md-3 my-2">
                     <img src="./images/Backend/logo-react.png" alt="react" class="images-logo">
                 </div>
-                <div id="rest" class="col">
+                <div id="rest" class="col-md-3 my-2">
                     <img src="./images/Backend/logo-rest.png" alt="rest" class="images-logo">
                 </div>
                 
@@ -151,26 +152,30 @@
     </section>
 
     <!-- Contact -->
-    <section id="contact" class="mt-5 py-3' px-4">
-        <h2 class="text-center pt-3">Contact Me</h2>
+    <section id="contact" class="mt-5 px-4">
+        <h2 class="text-center pt-2">Contact Me</h2>
         <p class="text-center">If you'd like to collaborate or have any questions, feel free to reach out:</p>
  
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-6 mr-2 ml-2 ">
-                    <div class="d-flex justify-content-center">
-                        <img src="./images/email.png" alt="email" id="icon-email" class="align-items-center">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row justify-content-center">
+                        <img src="./images/email.png" alt="email" id="icon-email" class="">
                         <p class="mt-2 align-items-center">shin62mahilum@gmail.com</p>
                     </div>
                 </div>
-                <div class="col-md-6 mr-2 ml-2">
-                    <div class="d-flex justify-content-center">
+                
+                <div class="col-md-6">
+                    <div class="row justify-content-center">
                         <img src="./images/mobile-number.png" alt="email" id="icon-mobile-number" class="align-items-center">
                         <p class="mt-2 align-items-center">(+63)985 947 5316</p>
                     </div>
-                </div>    
+                </div>
+                
             </div>
+            
         </div>
+        
         
     </section>
 

@@ -38,3 +38,8 @@ body {
 #navbar {
     background-color: #aab8b6;
 }
+
+#project-1, #project-2 {
+    background-color: #bccbc9;
+    border-radius: 25px;
+}
