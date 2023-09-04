@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    background-color: #e9ece6;
+    background-color: #FFFBF5;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -32,14 +32,14 @@ body {
 }
 
 #contact {
-    background-color: #545b5a;
+    background-color: #A4907C;
 }
 
 #navbar {
-    background-color: #aab8b6;
+    background-color: #C8B6A6;
 }
 
 #project-1, #project-2 {
-    background-color: #bccbc9;
+    background-color: #F1DEC9;
     border-radius: 25px;
 }
